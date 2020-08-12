@@ -1,0 +1,48 @@
+.background__title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  width: 560px;
+  margin: 0 auto 32px;
+}
+
+@media screen and (max-width: 1024px) {
+  .background__title {
+    width: calc(100% - (2*232px));
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .background__title {
+    width: calc(100% - (2*104px));
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .background__title {
+    width: calc(100% - (2*24px));
+    font-size: 60px;
+    line-height: 65px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .background__title {
+    width: 100%;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 35px;
+   }
+  }
+
+  @media screen and (max-width: 320px) {
+  .background__title {
+    width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+  }
+}

@@ -1,0 +1,22 @@
+.background__subtitle {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  width: 360px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 425px) {
+  .background__subtitle {
+    width: 100%;
+   }
+  }
+
+  @media screen and (max-width: 320px) {
+  .background__subtitle {
+    width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+   }
+  }

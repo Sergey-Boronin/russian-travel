@@ -1,0 +1,27 @@
+.lead__image {
+  display: block;
+  width: calc(1280px - 296px);
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+
+    width: calc(1024px - 96px);
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .lead__image {
+
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+
+    width: 100%;
+  }
+}
