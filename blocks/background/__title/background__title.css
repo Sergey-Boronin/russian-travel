@@ -30,8 +30,6 @@
 @media screen and (max-width: 425px) {
   .background__title {
     width: 100%;
-    font-size: 40px;
-    line-height: 45px;
     margin-bottom: 20px;
     font-size: 32px;
     line-height: 35px;
@@ -41,8 +39,6 @@
   @media screen and (max-width: 320px) {
   .background__title {
     width: 288px;
-    font-size: 32px;
-    line-height: 35px;
     margin-bottom: 16px;
   }
 }
