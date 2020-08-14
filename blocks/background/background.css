@@ -5,6 +5,7 @@
   height: 740px;
   background-size: cover;
   margin: 0 auto;
+  background-position: center;
 }
 
 @media screen and (max-width: 1024px) {
